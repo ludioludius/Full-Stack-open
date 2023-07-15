@@ -1,0 +1,31 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "TH",
+    "number": "69-420"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+
+"number": "040-123456"
+}
+
+###
+GET http://localhost:3001/api/persons/64b0463c88159ed2d7702e97
+
+###
+DELETE http://localhost:3001/api/persons/64b0463c88159ed2d7702e97
+
+###
+PUT  http://localhost:3001/api/persons/64b0a074658cf54951b72117
+Content-Type: application/json
+
+{
+    "name": "THE REAL BRT",
+    "number": "newnumber"
+}
